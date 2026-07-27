@@ -149,16 +149,22 @@ a {
   width: 2px;
   background: #111;
 }
-
 .post-body p {
-  position: relative;
-  display: inline-block;
+  display: inline;
   background: #111;
   color: #fff;
   font-weight: 700;
   line-height: 1.7;
   padding: 6px 14px;
-  margin: 0 0 26px -20px;
+  margin-left: -20px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.post-body p::after {
+  content: "";
+  display: block;
+  height: 26px;
 }
 
 /* ===== 記事下部ナビ ===== */
