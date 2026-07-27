@@ -146,16 +146,17 @@ a {
   top: 2px;
   bottom: 2px;
   left: 0;
-  width: 2px;
+  width: 3px;
   background: #111;
 }
+
 .post-body p {
   display: inline;
   background: #111;
   color: #fff;
   font-weight: 700;
   line-height: 1.7;
-  padding: 6px 3px
+  padding: 5px 4px;
   margin-left: -20px;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
@@ -164,7 +165,7 @@ a {
 .post-body p::after {
   content: "";
   display: block;
-  height: 26px;
+  height: 40px;
 }
 
 /* ===== 記事下部ナビ ===== */
