@@ -172,7 +172,7 @@ a {
 
 .post-nav .divider {
   flex: none;
-  width: 2px;
+  width: 4px;
   background: #111;
   margin: 10px 0;
 }
