@@ -168,6 +168,10 @@ a {
   height: 40px;
 }
 
+.post-body p:last-child::after {
+  content: none;
+}
+
 /* ===== 記事下部ナビ ===== */
 .post-nav {
   margin-top: 60px;
