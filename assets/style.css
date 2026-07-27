@@ -13,6 +13,7 @@ body {
     sans-serif;
   font-size: 15px;
   line-height: 1.9;
+  font-weight: 500;
 }
 
 .wrap {
@@ -37,9 +38,10 @@ a {
   gap: 40px;
   padding: 28px 0;
   border-bottom: 2px solid #111;
+  transition: background 0.15s ease, padding 0.15s ease, margin 0.15s ease;
 }
 
-.entry.is-active {
+.entry:hover {
   background: #f2f2f2;
   margin: 0 -20px;
   padding: 28px 20px;
@@ -134,10 +136,29 @@ a {
 .post-body {
   max-width: 640px;
   margin: 0 auto;
+  position: relative;
+  padding-left: 20px;
+}
+
+.post-body::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 0;
+  width: 2px;
+  background: #111;
 }
 
 .post-body p {
-  margin: 0 0 28px;
+  position: relative;
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.7;
+  padding: 6px 14px;
+  margin: 0 0 26px -20px;
 }
 
 /* ===== 記事下部ナビ ===== */
