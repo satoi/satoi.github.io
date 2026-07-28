@@ -28,7 +28,7 @@ a {
 
 /* ===== 一覧ページ ===== */
 .entry-list {
-  border-top: 2px solid #111;
+  border-top: 1px solid #111;
 }
 
 .entry {
@@ -37,7 +37,7 @@ a {
   align-items: flex-start;
   gap: 40px;
   padding: 28px 0;
-  border-bottom: 2px solid #111;
+  border-bottom: 1px solid #111;
   transition: background 0.15s ease, padding 0.15s ease, margin 0.15s ease;
 }
 
@@ -122,7 +122,7 @@ a {
   font-weight: 400;
   margin: 0 0 30px;
   padding-bottom: 30px;
-  border-bottom: 2px solid #111;
+  border-bottom: 1px solid #111;
 }
 
 .post-image {
@@ -162,8 +162,8 @@ a {
 /* ===== 記事下部ナビ ===== */
 .post-nav {
   margin-top: 60px;
-  border-top: 2px solid #111;
-  border-bottom: 2px solid #111;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
   display: flex;
   align-items: stretch;
   font-weight: 700;
@@ -191,9 +191,9 @@ a {
 
 .post-nav .divider {
   flex: none;
-  width: 2px;
+  width: 1px;
   background: #111;
-  margin: 10px 0;
+  margin: 24px 0;
 }
 
 .post-nav a:hover {
